@@ -8,4 +8,5 @@ ENV SPARK_APPLICATION_ARGS ""
 #ENV SPARK_APPLICATION_JAR_LOCATION /opt/spark-apps/myjar.jar
 #ENV SPARK_APPLICATION_MAIN_CLASS my.main.Application
 
-CMD ["/bin/bash", "/spark-submit.sh"]
+# CMD ["/bin/bash", "/spark-submit.sh"]
+CMD tail -f /dev/null
